@@ -1,161 +1,142 @@
 version: '3.9'
 services:
- redis-stack-0:
-    image: "redis/redis-stack:latest"
+  redis-stack-0:
+    image: 'redis/redis-stack:latest'
     ports:
-        - 6000:6379
-        - 16000:8001
+      - '6000:6379'
+      - '16000:8001'
     volumes:
-        - redis_data/0:/data    
-
+      - 'redis_data/0:/data'
 redis-stack-1:
-    image: "redis/redis-stack:latest"
-    ports:
-        - 6001:6379
-        - 16001:8001
-    volumes:
-        - redis_data/1:/data    
-
+  image: 'redis/redis-stack:latest'
+  ports:
+    - '6001:6379'
+    - '16001:8001'
+  volumes:
+    - 'redis_data/1:/data'
 redis-stack-2:
-    image: "redis/redis-stack:latest"
-    ports:
-        - 6002:6379
-        - 16002:8001
-    volumes:
-        - redis_data/2:/data    
-
+  image: 'redis/redis-stack:latest'
+  ports:
+    - '6002:6379'
+    - '16002:8001'
+  volumes:
+    - 'redis_data/2:/data'
 redis-stack-3:
-    image: "redis/redis-stack:latest"
-    ports:
-        - 6003:6379
-        - 16003:8001
-    volumes:
-        - redis_data/3:/data    
-
+  image: 'redis/redis-stack:latest'
+  ports:
+    - '6003:6379'
+    - '16003:8001'
+  volumes:
+    - 'redis_data/3:/data'
 redis-stack-4:
-    image: "redis/redis-stack:latest"
-    ports:
-        - 6004:6379
-        - 16004:8001
-    volumes:
-        - redis_data/4:/data    
-
+  image: 'redis/redis-stack:latest'
+  ports:
+    - '6004:6379'
+    - '16004:8001'
+  volumes:
+    - 'redis_data/4:/data'
 redis-stack-5:
-    image: "redis/redis-stack:latest"
-    ports:
-        - 6005:6379
-        - 16005:8001
-    volumes:
-        - redis_data/5:/data    
-
+  image: 'redis/redis-stack:latest'
+  ports:
+    - '6005:6379'
+    - '16005:8001'
+  volumes:
+    - 'redis_data/5:/data'
 redis-stack-6:
-    image: "redis/redis-stack:latest"
-    ports:
-        - 6006:6379
-        - 16006:8001
-    volumes:
-        - redis_data/6:/data    
-
+  image: 'redis/redis-stack:latest'
+  ports:
+    - '6006:6379'
+    - '16006:8001'
+  volumes:
+    - 'redis_data/6:/data'
 redis-stack-7:
-    image: "redis/redis-stack:latest"
-    ports:
-        - 6007:6379
-        - 16007:8001
-    volumes:
-        - redis_data/7:/data    
-
+  image: 'redis/redis-stack:latest'
+  ports:
+    - '6007:6379'
+    - '16007:8001'
+  volumes:
+    - 'redis_data/7:/data'
 redis-stack-8:
-    image: "redis/redis-stack:latest"
-    ports:
-        - 6008:6379
-        - 16008:8001
-    volumes:
-        - redis_data/8:/data    
-
+  image: 'redis/redis-stack:latest'
+  ports:
+    - '6008:6379'
+    - '16008:8001'
+  volumes:
+    - 'redis_data/8:/data'
 redis-stack-9:
-    image: "redis/redis-stack:latest"
-    ports:
-        - 6009:6379
-        - 16009:8001
-    volumes:
-        - redis_data/9:/data    
-
+  image: 'redis/redis-stack:latest'
+  ports:
+    - '6009:6379'
+    - '16009:8001'
+  volumes:
+    - 'redis_data/9:/data'
 redis-stack-10:
-    image: "redis/redis-stack:latest"
-    ports:
-        - 6010:6379
-        - 16010:8001
-    volumes:
-        - redis_data/10:/data    
-
+  image: 'redis/redis-stack:latest'
+  ports:
+    - '6010:6379'
+    - '16010:8001'
+  volumes:
+    - 'redis_data/10:/data'
 redis-stack-11:
-    image: "redis/redis-stack:latest"
-    ports:
-        - 6011:6379
-        - 16011:8001
-    volumes:
-        - redis_data/11:/data    
-
+  image: 'redis/redis-stack:latest'
+  ports:
+    - '6011:6379'
+    - '16011:8001'
+  volumes:
+    - 'redis_data/11:/data'
 redis-stack-12:
-    image: "redis/redis-stack:latest"
-    ports:
-        - 6012:6379
-        - 16012:8001
-    volumes:
-        - redis_data/12:/data    
-
+  image: 'redis/redis-stack:latest'
+  ports:
+    - '6012:6379'
+    - '16012:8001'
+  volumes:
+    - 'redis_data/12:/data'
 redis-stack-13:
-    image: "redis/redis-stack:latest"
-    ports:
-        - 6013:6379
-        - 16013:8001
-    volumes:
-        - redis_data/13:/data    
-
+  image: 'redis/redis-stack:latest'
+  ports:
+    - '6013:6379'
+    - '16013:8001'
+  volumes:
+    - 'redis_data/13:/data'
 redis-stack-14:
-    image: "redis/redis-stack:latest"
-    ports:
-        - 6014:6379
-        - 16014:8001
-    volumes:
-        - redis_data/14:/data    
-
+  image: 'redis/redis-stack:latest'
+  ports:
+    - '6014:6379'
+    - '16014:8001'
+  volumes:
+    - 'redis_data/14:/data'
 redis-stack-15:
-    image: "redis/redis-stack:latest"
-    ports:
-        - 6015:6379
-        - 16015:8001
-    volumes:
-        - redis_data/15:/data    
-
+  image: 'redis/redis-stack:latest'
+  ports:
+    - '6015:6379'
+    - '16015:8001'
+  volumes:
+    - 'redis_data/15:/data'
 redis-stack-16:
-    image: "redis/redis-stack:latest"
-    ports:
-        - 6016:6379
-        - 16016:8001
-    volumes:
-        - redis_data/16:/data    
-
+  image: 'redis/redis-stack:latest'
+  ports:
+    - '6016:6379'
+    - '16016:8001'
+  volumes:
+    - 'redis_data/16:/data'
 redis-stack-17:
-    image: "redis/redis-stack:latest"
-    ports:
-        - 6017:6379
-        - 16017:8001
-    volumes:
-        - redis_data/17:/data    
-
+  image: 'redis/redis-stack:latest'
+  ports:
+    - '6017:6379'
+    - '16017:8001'
+  volumes:
+    - 'redis_data/17:/data'
 redis-stack-18:
-    image: "redis/redis-stack:latest"
-    ports:
-        - 6018:6379
-        - 16018:8001
-    volumes:
-        - redis_data/18:/data    
-
+  image: 'redis/redis-stack:latest'
+  ports:
+    - '6018:6379'
+    - '16018:8001'
+  volumes:
+    - 'redis_data/18:/data'
 redis-stack-19:
-    image: "redis/redis-stack:latest"
-    ports:
-        - 6019:6379
-        - 16019:8001
-    volumes:
-        - redis_data/19:/data    
+  image: 'redis/redis-stack:latest'
+  ports:
+    - '6019:6379'
+    - '16019:8001'
+  volumes:
+    - 'redis_data/19:/data'
