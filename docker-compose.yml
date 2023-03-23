@@ -1,6 +1,6 @@
 version: '3.9'
 services:
-  redis-stack-0:
+ redis-stack-0:
     image: "redis/redis-stack:latest"
     ports:
         - 6000:6379
