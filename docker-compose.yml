@@ -1,4 +1,7 @@
 version: '3.9'
+volumes:
+  redis_data:
+    external: true
 services:
     redis-stack-0:
       image: 'redis/redis-stack:latest'
