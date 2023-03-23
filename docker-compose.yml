@@ -1,6 +1,6 @@
 version: '3.9'
 volumes:
-  ./redis_data:
+  redis_data:
     external: true
 services:
     redis-stack-0:
