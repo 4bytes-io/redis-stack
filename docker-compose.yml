@@ -1,0 +1,8 @@
+version: '3'
+services:
+  redis-stack:
+  image: "redis/redis-stack:latest"
+  ports:
+    - "10001-10021:6379"
+    - "80001-80021:8001"
+ 
