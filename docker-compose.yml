@@ -4,5 +4,5 @@ services:
     image: "redis/redis-stack:latest"
     ports:
       - 10001-10021:6379
-      - 18001-1:8021:8001
+      - 18001:18021:8001
  
