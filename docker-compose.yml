@@ -1,10 +1,121 @@
 version: '3.9'
 services:
-  redis-stack:
-    image: "redis/redis-stack:latest"
-    ports:
-      - 10001-10021:6379
-      - 18001-18021:8001
-    deploy:
-      replicas: 20
- 
+  redis-stack-0:
+      image: "redis/redis-stack:latest"
+      ports:
+          - 6000:6379
+          - 16000:8001
+
+  redis-stack-1:
+      image: "redis/redis-stack:latest"
+      ports:
+          - 6001:6379
+          - 16001:8001
+
+  redis-stack-2:
+      image: "redis/redis-stack:latest"
+      ports:
+          - 6002:6379
+          - 16002:8001
+
+  redis-stack-3:
+      image: "redis/redis-stack:latest"
+      ports:
+          - 6003:6379
+          - 16003:8001
+
+  redis-stack-4:
+      image: "redis/redis-stack:latest"
+      ports:
+          - 6004:6379
+          - 16004:8001
+
+  redis-stack-5:
+      image: "redis/redis-stack:latest"
+      ports:
+          - 6005:6379
+          - 16005:8001
+
+  redis-stack-6:
+      image: "redis/redis-stack:latest"
+      ports:
+          - 6006:6379
+          - 16006:8001
+
+  redis-stack-7:
+      image: "redis/redis-stack:latest"
+      ports:
+          - 6007:6379
+          - 16007:8001
+
+  redis-stack-8:
+      image: "redis/redis-stack:latest"
+      ports:
+          - 6008:6379
+          - 16008:8001
+
+  redis-stack-9:
+      image: "redis/redis-stack:latest"
+      ports:
+          - 6009:6379
+          - 16009:8001
+
+  redis-stack-10:
+      image: "redis/redis-stack:latest"
+      ports:
+          - 6010:6379
+          - 16010:8001
+
+  redis-stack-11:
+      image: "redis/redis-stack:latest"
+      ports:
+          - 6011:6379
+          - 16011:8001
+
+  redis-stack-12:
+      image: "redis/redis-stack:latest"
+      ports:
+          - 6012:6379
+          - 16012:8001
+
+  redis-stack-13:
+      image: "redis/redis-stack:latest"
+      ports:
+          - 6013:6379
+          - 16013:8001
+
+  redis-stack-14:
+      image: "redis/redis-stack:latest"
+      ports:
+          - 6014:6379
+          - 16014:8001
+
+  redis-stack-15:
+      image: "redis/redis-stack:latest"
+      ports:
+          - 6015:6379
+          - 16015:8001
+
+  redis-stack-16:
+      image: "redis/redis-stack:latest"
+      ports:
+          - 6016:6379
+          - 16016:8001
+
+  redis-stack-17:
+      image: "redis/redis-stack:latest"
+      ports:
+          - 6017:6379
+          - 16017:8001
+
+  redis-stack-18:
+      image: "redis/redis-stack:latest"
+      ports:
+          - 6018:6379
+          - 16018:8001
+
+  redis-stack-19:
+      image: "redis/redis-stack:latest"
+      ports:
+          - 6019:6379
+          - 16019:8001
